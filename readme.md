@@ -13,13 +13,23 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. Download the theme of your choice
+2. Open Kvantum Manager
+3. Select the theme folder
+4. Install
+5. Change the theme
 
 ## Gallery
+**Rosé Pine**
+![Rosé Pine with Kvantum Preview](https://github.com/user-attachments/assets/0400a735-8493-4ccd-b41a-3ab2a225e673)
+**Rosé Pine Moon**
+![Rosé Pine Moon with Kvantum Preview](https://github.com/user-attachments/assets/9fe04b90-2750-4cd7-b7c6-3b6d83ce3487)
 
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+**Rosé Pine Dawn**
+![Rosé Pine Dawn with Kvantum Preview](https://github.com/user-attachments/assets/e73d97e8-cd51-47e6-a891-dc643536081f)
+
+
+
 
 ## Thanks to
 
