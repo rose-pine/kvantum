@@ -11,6 +11,7 @@
     </a>
 </p>
 
+>based on [Catppuccin's Kvantum theme](https://github.com/Catppuccin/kvantum)
 ## Usage
 
 1. Download the theme of your choice
