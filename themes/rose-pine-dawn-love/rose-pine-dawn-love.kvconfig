@@ -3,15 +3,15 @@
 #  ORIGINAL FROM CATPPUCCIN
 #  MODIFIED BY OYUDAYS
 #
-#  ID     $id
-#  NAME   $name
-#  TYPE   $type
+#  ID     rose-pine-dawn
+#  NAME   Rosé Pine Dawn
+#  TYPE   light
 #
 
 
 [%General]
 author=OyuDays based on catpuccin style
-comment=$description
+comment=All natural pine, faux fur and a bit of soho vibes for the classy minimalist
 combo_focus_rect=true
 spread_menuitems=true
 left_tabs=true
@@ -83,24 +83,24 @@ shadowless_popup=false
 transient_groove=false
 
 [GeneralColors]
-window.color=$surface
-base.color=$base
-alt.base.color=$base
-button.color=$overlay
-light.color=$muted
-mid.light.color=$muted
-dark.color=$base
-mid.color=$base
-highlight.color=$accent
-inactive.highlight.color=$accent
-text.color=$text
-window.text.color=$text
-button.text.color=$text
-disabled.text.color=$subtle
-tooltip.text.color=$text
-highlight.text.color=$base
-link.color=$foam
-link.visited.color=$iris
+window.color=#fffaf3
+base.color=#faf4ed
+alt.base.color=#faf4ed
+button.color=#f2e9e1
+light.color=#9893a5
+mid.light.color=#9893a5
+dark.color=#faf4ed
+mid.color=#faf4ed
+highlight.color=#b4637a
+inactive.highlight.color=#b4637a
+text.color=#575279
+window.text.color=#575279
+button.text.color=#575279
+disabled.text.color=#797593
+tooltip.text.color=#575279
+highlight.text.color=#faf4ed
+link.color=#56949f
+link.visited.color=#907aa9
 
 [ItemView]
 inherits=PanelButtonCommand
@@ -109,7 +109,7 @@ interior.element=itemview
 frame=true
 interior=true
 text.iconspacing=3
-text.toggle.color=$base
+text.toggle.color=#faf4ed
 
 [RadioButton]
 inherits=PanelButtonCommand
@@ -136,10 +136,10 @@ frame=true
 inherits=PanelButtonCommand
 interior.element=button
 frame.element=button
-text.normal.color=$text
-text.focus.color=$text
-text.press.color=$base
-text.toggle.color=$base
+text.normal.color=#575279
+text.focus.color=#575279
+text.press.color=#faf4ed
+text.toggle.color=#faf4ed
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
@@ -241,10 +241,10 @@ frame.bottom=3
 frame.left=3
 frame.right=3
 indicator.size=10
-text.normal.color=$subtle
-text.focus.color=$text
-text.press.color=$text
-text.toggle.color=$text
+text.normal.color=#797593
+text.focus.color=#575279
+text.press.color=#575279
+text.toggle.color=#575279
 focusFrame=true
 
 [TabBarFrame]
@@ -281,10 +281,10 @@ frame.bottom=1
 frame.left=1
 frame.right=1
 frame.expansion=0
-text.normal.color=$text
-text.focus.color=$accent
-text.press.color=$text
-text.toggle.color=$text
+text.normal.color=#575279
+text.focus.color=#b4637a
+text.press.color=#575279
+text.toggle.color=#575279
 indicator.element=harrow
 
 [SizeGrip]
@@ -302,10 +302,10 @@ frame=true
 frame.bottom=4
 frame.left=4
 frame.right=4
-text.normal.color=$text
-text.focus.color=$text
-text.press.color=$accent
-text.toggle.color=$accent
+text.normal.color=#575279
+text.focus.color=#575279
+text.press.color=#b4637a
+text.toggle.color=#b4637a
 text.bold=false
 
 [MenuBar]
@@ -313,7 +313,7 @@ inherits=PanelButtonCommand
 frame.element=menubar
 interior.element=menubar
 frame.bottom=0
-text.normal.color=$text
+text.normal.color=#575279
 frame.expansion=0
 text.bold=false
 
@@ -321,10 +321,10 @@ text.bold=false
 frame.element=tbutton
 interior.element=tbutton
 indicator.element=arrow
-text.normal.color=$text
-text.focus.color=$text
-text.press.color=$base
-text.toggle.color=$base
+text.normal.color=#575279
+text.focus.color=#575279
+text.press.color=#faf4ed
+text.toggle.color=#faf4ed
 text.bold=false
 
 [Scrollbar]
@@ -366,10 +366,10 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 text.margin=0
-text.normal.color=$text
-text.focus.color=$text
-text.press.color=$base
-text.toggle.color=$base
+text.normal.color=#575279
+text.focus.color=#575279
+text.press.color=#faf4ed
+text.toggle.color=#faf4ed
 text.bold=false
 frame.expansion=18
 
@@ -380,8 +380,8 @@ inherits=PanelButtonCommand
 frame.element=menu
 interior.element=menu
 inherits=PanelButtonCommand
-text.press.color=$base
-text.toggle.color=$base
+text.press.color=#faf4ed
+text.toggle.color=#faf4ed
 text.bold=false
 frame.top=3
 frame.bottom=3
@@ -392,8 +392,8 @@ frame.right=3
 inherits=PanelButtonCommand
 interior.element=menuitem
 indicator.size=8
-text.focus.color=$text
-text.press.color=$text
+text.focus.color=#575279
+text.press.color=#575279
 
 [MenuBarItem]
 inherits=PanelButtonCommand
@@ -408,7 +408,7 @@ text.margin.right=5
 inherits=Toolbar
 frame.element=toolbar
 font.bold=true
-text.normal.color=$text
+text.normal.color=#575279
 frame=true
 frame.top=0
 frame.bottom=0
@@ -433,13 +433,13 @@ text.margin.top=1
 text.margin.bottom=1
 text.margin.left=3
 text.margin.right=3
-text.toggle.color=$text
+text.toggle.color=#575279
 
 [ToolboxTab]
 inherits=PanelButtonCommand
-text.normal.color=$text
-text.press.color=$text
-text.focus.color=$text
+text.normal.color=#575279
+text.press.color=#575279
+text.focus.color=#575279
 
 [Hacks]
 transparent_dolphin_view=false
