@@ -1,20 +1,24 @@
 #!/bin/bash
 
-mkdir -p themes
-rm -r themes
+mkdir -p dist
+rm -r dist
 
-rose-pine-bloom -t templates -o themes/ --accents
+rose-pine-bloom -t templates -o dist/ --accents
 
-for basevariant in "themes"/*; do
+cd dist
+for basevariant in "."/*; do
     for accent in "$basevariant"/*; do
         for file in "$accent"/*; do
             mv $file $accent/$(basename $basevariant)-$(basename $accent).${file##*.}
         done
-        mv $accent themes/$(basename $basevariant)-$(basename $accent)
+        mv $accent $(basename $basevariant)-$(basename $accent)
+        echo $(basename $basevariant)-$(basename $accent)
+        tar -cvzf $(basename $basevariant)-$(basename $accent).tar.gz $(basename $basevariant)-$(basename $accent)
+        rm -rf $(basename $basevariant)-$(basename $accent)
     done
 done
 
 # cleanup
-rm -r themes/rose-pine
-rm -r themes/rose-pine-dawn
-rm -r themes/rose-pine-moon
+rm -r rose-pine
+rm -r rose-pine-dawn
+rm -r rose-pine-moon
