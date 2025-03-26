@@ -14,11 +14,12 @@
 >based on [Catppuccin's Kvantum theme](https://github.com/Catppuccin/kvantum)
 ## Usage
 
-1. Download the theme of your choice from the `themes/` directory
-2. Open Kvantum Manager
-3. Select the downloaded theme folder
-4. Install
-5. Change the theme
+1. Download the theme of your choice from the `dist/` directory
+2. Extract the archive
+4. Open Kvantum Manager
+5. Select the extracted theme folder
+6. Install
+7. Change the theme
 
 ## Gallery
 **Rosé Pine Iris**
